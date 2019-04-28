@@ -1,0 +1,2 @@
+// Macro that calculates the value of your current inventory in dingy iron coins.  Might be legacy now.
+/run a,b=GetCurrencyInfo(980) c=GetItemCount k=c(112995)*2+c(112996)*3+c(112997)*4+c(113000)*4+c(112998)*5+(c(113001)+c(112999)+c(113004))*6+c(113002)*8+c(113003)*10+c(113005)*12+c(113006)*18+(c(113008)+c(113007))*20 print("inv:",k,"to go:", 1000-(k+b))
