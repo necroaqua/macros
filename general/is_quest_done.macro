@@ -1,0 +1,2 @@
+// Returns True if quest has been completed on that character
+/script print(IsQuestFlaggedCompleted(32974))
