@@ -1,0 +1,5 @@
+// If holding shift, switches to the '1H' set if it isn't equipped.  Otherwise casts Serpent Sting.
+#showtooltip
+/cast [nomod] Serpent Sting
+/equipset [mod:shift] 1H
+/cast [mod:shift] Serpent Sting
