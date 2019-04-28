@@ -1,0 +1,3 @@
+// Has your pet sacrifice themselves for the mouseover target
+#showtooltip Roar of Sacrifice
+/cast [target=mouseover,nodead,help] Roar of Sacrifice
