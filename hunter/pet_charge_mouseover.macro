@@ -1,0 +1,3 @@
+// Have your pet charge your mouseover target.
+#showtooltip Charge
+/cast [target=mouseover,nodead] Charge
