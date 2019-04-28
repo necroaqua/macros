@@ -1,0 +1,7 @@
+// Honestly don't know exactly...but will sap a nearby target
+#showtooltip Sap
+/console targetNearestDistance 10.000000
+/Cleartarget
+/targetenemy [noharm][dead]
+/console targetNearestDistance 41.000000
+/cast [harm,nodead] Sap
