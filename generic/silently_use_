@@ -1,0 +1,7 @@
+// Uses an item (off GCD) before an ability, but doesn't give an error message if the item is on cooldown
+/script UIErrorsFrame:UnregisterEvent("UI_ERROR_MESSAGE");
+/console Sound_EnableSFX 0
+/use Lower City Prayerbook
+/cast Lifebloom
+/script UIErrorsFrame:RegisterEvent("UI_ERROR_MESSAGE");
+/console Sound_EnableSFX 1
