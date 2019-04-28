@@ -1,0 +1,3 @@
+// Attemts to cast the spell on your mouseover target, otherwise your target
+#show Sunder Armor
+/cast [target=mouseover, exists, harm] Sunder Armor; Sunder Armor;
