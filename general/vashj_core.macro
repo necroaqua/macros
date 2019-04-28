@@ -1,0 +1,4 @@
+// Legacy raiding macro to pass the core and let the recipient know
+/use tainted core
+/y All Your Core Are Belong To %t!
+/script SendChatMessage("!!! YOU HAVE THE CORE !!!", "WHISPER", nil, UnitName("target"));
