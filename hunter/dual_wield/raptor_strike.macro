@@ -1,0 +1,4 @@
+// Equips '2H' set if it isn't equipped (takes GCD), otherwise casts Raptor Strike if it is equipped
+#showtooltip Raptor Strike
+/equipset 2H
+/cast Raptor Strike
