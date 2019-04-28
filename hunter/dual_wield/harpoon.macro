@@ -1,0 +1,4 @@
+// Equips the '2H' set if not already equipped (takes a GCD), or casts Harpoon if it is equipped
+#showtooltip harpoon
+/equipset 2H
+/cast Harpoon
