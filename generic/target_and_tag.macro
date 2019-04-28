@@ -1,0 +1,4 @@
+// Target a named mob and attempt to tag it with an instant damage ranged spell if you can
+/cleartarget
+/tar Gruff
+/cast [harm, nodead] Moonfire
