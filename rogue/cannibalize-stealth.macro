@@ -1,0 +1,4 @@
+// Stealthing doesn't break cannibalize, so this tries to cannibalize and then stealths if you are out of combat.  Undead only.
+#showtooltip Cannibalize
+/cast [nostealth] !Cannibalize;
+/cast [nocombat] !stealth;
