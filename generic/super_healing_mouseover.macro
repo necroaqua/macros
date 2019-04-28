@@ -1,0 +1,4 @@
+// Super healing macro
+// Heals the first of... focus (if holding ctrl) > mouseover > target > self
+#showtooltip Rejuvenation
+/cast [target=focus, mod:ctrl, help, nodead] [target=mouseover, help, nodead] [help, nodead] [target=player] Rejuvenation
