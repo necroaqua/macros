@@ -1,0 +1,2 @@
+# Displays the current coords at the top of the screen.
+/run local p,f="player",CreateFrame("Button",nil,UIParent,"OptionsButtonTemplate")f:SetPoint("TOP",0,0)f:SetScript("OnUpdate",function(s,e)x,y=C_Map.GetPlayerMapPosition(C_Map.GetBestMapForUnit(p),p):GetXY()f:SetText(format("(%.1f,%.1f)",x*100,y*100))end)
