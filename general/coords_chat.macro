@@ -1,0 +1,2 @@
+# Displays the map and coords in the chat window.
+/run local s,id,c,x,y=function()print("No")end,C_Map.GetBestMapForUnit("player")if not id then s()return end c=C_Map.GetPlayerMapPosition(id,"player")if not c then s()return end x,y=c:GetXY()print(string.format("%s:%.2f,%.2f",GetZoneText(),x*100,y*100))
